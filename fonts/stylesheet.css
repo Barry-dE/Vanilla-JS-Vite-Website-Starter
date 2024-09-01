@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'PP Neue Montreal Book';
+    src: local('PP Neue Montreal Book'), local('PPNeueMontreal-Book'),
+        url('PPNeueMontreal-Book.woff2') format('woff2'),
+        url('PPNeueMontreal-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: local('PP Neue Montreal Italic'), local('PPNeueMontreal-Italic'),
+        url('PPNeueMontreal-Italic.woff2') format('woff2'),
+        url('PPNeueMontreal-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: local('PP Neue Montreal Bold'), local('PPNeueMontreal-Bold'),
+        url('PPNeueMontreal-Bold.woff2') format('woff2'),
+        url('PPNeueMontreal-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: local('PP Neue Montreal Medium'), local('PPNeueMontreal-Medium'),
+        url('PPNeueMontreal-Medium.woff2') format('woff2'),
+        url('PPNeueMontreal-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: local('PP Neue Montreal Thin'), local('PPNeueMontreal-Thin'),
+        url('PPNeueMontreal-Thin.woff2') format('woff2'),
+        url('PPNeueMontreal-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: local('PP Neue Montreal SemiBold italic'), local('PPNeueMontreal-SemiBolditalic'),
+        url('PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
+        url('PPNeueMontreal-SemiBolditalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+

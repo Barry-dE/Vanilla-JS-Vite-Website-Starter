@@ -1,0 +1,26 @@
+%title-110 {
+  font-family: PP Editorial Old;
+  font-size: 11rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+%title-180 {
+  font-family: PP Editorial Old;
+  font-size: 18rem;
+  font-weight: 800;
+  line-height: 16.2rem;
+  text-align: left;
+
+  @include media("<phone") {
+    font-size: 5.6rem;
+    line-height: 5rem;
+  }
+}
+
+%title-270 {
+  font-family: PP Editorial Old;
+  font-size: 27rem;
+  font-weight: 800;
+  text-align: center;
+}

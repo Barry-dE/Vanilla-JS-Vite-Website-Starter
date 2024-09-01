@@ -1,0 +1,61 @@
+%description-20 {
+  font-family: "PP Neue Montreal";
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: $color-diesel;
+  text-align: right;
+
+  @include media("<phone") {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 16.8px;
+  }
+}
+
+%description-24 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 2.2rem;
+  font-family: "PP Editorial Old";
+  @include media("<phone") {
+    font-size: 1.8rem;
+  }
+}
+
+%description-32 {
+  font-family: PP Neue Montreal;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.52rem;
+  text-align: left;
+}
+
+%description-32-2 {
+  font-family: "PP Neue Montreal";
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.52rem;
+  text-align: left;
+}
+
+%description-48 {
+  font-family: PP Editorial Old;
+  font-size: 4.6rem;
+  font-weight: 800;
+  line-height: 4.2rem;
+}
+
+%description-48-2 {
+  font-family: PP Editorial Old;
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+
+%description-80 {
+  font-family: PP Neue Montreal;
+  font-size: 8rem;
+  font-weight: 400;
+  text-wrap: nowrap;
+}

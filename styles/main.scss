@@ -1,0 +1,18 @@
+@import "./base/reset";
+@import "./utils/variables";
+@import "./utils/responsive";
+
+@import "./base/base";
+@import "./base/typography";
+@import "./shared/description";
+@import "./shared/title";
+@import "./shared/links";
+
+@import "./utils/mixins";
+
+@import "./views/nav.scss";
+@import "./views/hero.scss";
+@import "./views/about.scss";
+@import "./views/projects.scss";
+@import "./views/footer.scss";
+@import "./views/preloader.scss";

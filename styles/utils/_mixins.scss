@@ -1,0 +1,53 @@
+@mixin flex($justify: flex-start, $align: flex-start, $flow: row wrap) {
+  flex-flow: $flow;
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+%cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flex-ac {
+  display: flex;
+  align-items: center;
+}
+
+%flex-ac-jb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+%show {
+  visibility: visible;
+  opacity: 1;
+}
+
+%center-pos-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+%dimension {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+  height: 114.2rem;
+  display: none;
+}
+
+.about__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.about__media {
+  position: relative;
+  width: 184rem;
+  height: 74.7rem;
+  top: 6.9rem;
+}
+
+.about__media__image {
+  @extend %cover;
+  object-fit: cover;
+}
+
+.about__description {
+  position: absolute;
+  width: 103.8rem;
+  height: 17.5rem;
+  left: 4rem;
+  bottom: 7rem;
+}
+
+.about__description__text {
+  @extend %description-32;
+}

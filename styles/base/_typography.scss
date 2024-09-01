@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "PP Neue Montreal Book";
+  src: local("PP Neue Montreal Book"), local("PPNeueMontreal-Book"),
+    url("../fonts/PPNeueMontreal-Book.woff2") format("woff2"),
+    url("../fonts/PPNeueMontreal-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: local("PP Neue Montreal Italic"), local("PPNeueMontreal-Italic"),
+    url("../fonts/PPNeueMontreal-Italic.woff2") format("woff2"),
+    url("../fonts/PPNeueMontreal-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: local("PP Neue Montreal Bold"), local("PPNeueMontreal-Bold"),
+    url("../fonts/PPNeueMontreal-Bold.woff2") format("woff2"),
+    url("../fonts/PPNeueMontreal-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: local("PP Neue Montreal Medium"), local("PPNeueMontreal-Medium"),
+    url("../fonts/PPNeueMontreal-Medium.woff2") format("woff2"),
+    url("../fonts/PPNeueMontreal-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: local("PP Neue Montreal Thin"), local("PPNeueMontreal-Thin"),
+    url("../fonts/PPNeueMontreal-Thin.woff2") format("woff2"),
+    url("../fonts/PPNeueMontreal-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: local("PP Neue Montreal SemiBold italic"),
+    local("PPNeueMontreal-SemiBolditalic"),
+    url("../fonts/PPNeueMontreal-SemiBolditalic.woff2") format("woff2"),
+    url("../fonts/PPNeueMontreal-SemiBolditalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: local("PP Editorial Old Regular"), local("PPEditorialOld-Regular"),
+    url("../fonts/PPEditorialOld-Regular.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: local("PP Editorial Old Ultrabold Italic"),
+    local("PPEditorialOld-UltraboldItalic"),
+    url("../fonts/PPEditorialOld-UltraboldItalic.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-UltraboldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: local("PP Editorial Old Ultrabold"), local("PPEditorialOld-Ultrabold"),
+    url("../fonts/PPEditorialOld-Ultrabold.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Ultrabold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: local("PP Editorial Old Ultralight Italic"),
+    local("PPEditorialOld-UltralightItalic"),
+    url("../fonts/PPEditorialOld-UltralightItalic.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-UltralightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: local("PP Editorial Old Ultralight"), local("PPEditorialOld-Ultralight"),
+    url("../fonts/PPEditorialOld-Ultralight.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Ultralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
