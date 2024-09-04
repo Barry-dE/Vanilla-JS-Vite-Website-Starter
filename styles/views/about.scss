@@ -1,7 +1,10 @@
 .about {
   width: 100%;
   height: 114.2rem;
-  display: none;
+
+  @include media("<phone") {
+    height: 70rem;
+  }
 }
 
 .about__wrapper {
@@ -18,6 +21,13 @@
   width: 184rem;
   height: 74.7rem;
   top: 6.9rem;
+
+  @include media("<phone") {
+    width: 34.3rem;
+    height: 30.3rem;
+    top: 0;
+    left: 0;
+  }
 }
 
 .about__media__image {
@@ -31,6 +41,13 @@
   height: 17.5rem;
   left: 4rem;
   bottom: 7rem;
+
+  @include media("<phone") {
+    width: 34.3rem;
+    height: 10.5rem;
+    left: 0;
+    top: calc(30.3rem + 7.6rem);
+  }
 }
 
 .about__description__text {

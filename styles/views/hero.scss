@@ -95,12 +95,13 @@
   }
 
   @include media("<phone") {
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // width: 100%;
+    // bottom: 0;
+    // right: 0;
+    // text-align: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    display: none;
   }
 }
