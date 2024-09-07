@@ -1,81 +1,311 @@
+// .projects {
+//   height: 100%;
+//   height: 100%;
+//   // display: none;
+// }
+
+// .projects__wrapper {
+//   width: 100%;
+//   height: 100%;
+//   padding: 0 4rem;
+// }
+
+// .projects__main__content {
+//   min-height: 100%;
+//   width: 100%;
+// }
+
+// .projects__header {
+//   margin-top: 7.7rem;
+//   margin-bottom: 5.3rem;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 3.2rem;
+//   align-items: center;
+// }
+
+// .projects__header__text {
+//   width: 41.5rem;
+//   height: 4.3rem;
+//   @extend %description-48;
+//   align-self: flex-start;
+// }
+
+// .divider {
+//   width: 184rem;
+//   border: 1px;
+//   height: 0.05rem;
+//   background-color: $color-black;
+
+//   @include media("<phone") {
+//     width: 34.3rem;
+//   }
+// }
+
+// .projects__content {
+//   display: flex;
+//   min-height: 100%;
+//   width: 100%;
+//   border: 1px solid gold;
+
+//   @include media("<phone") {
+//     flex-direction: column;
+//   }
+// }
+
+// .projects__content--row-reverse {
+//   display: flex;
+//   flex-direction: row-reverse;
+//   width: 100%;
+//   border: 1px solid red;
+
+//   @include media("<phone") {
+//     flex-direction: column;
+//     width: 100%;
+//   }
+// }
+
+// .projects__sirheritage__media {
+// }
+
+// .projects__media__media {
+//   width: 72.7rem;
+//   height: 95.2rem;
+//   position: relative;
+//   border: 1px solid rgb(0, 255, 128);
+//   @include media("<phone") {
+//     width: 35rem;
+//     height: 42.6rem;
+//   }
+// }
+
+// .projects__media__media__image {
+//   @extend %cover;
+//   object-fit: cover;
+// }
+
+// .projects__text {
+//   width: 100%;
+//   position: relative;
+//   border: 1px solid rgb(64, 0, 255);
+// }
+
+// .projects__number__text {
+//   position: absolute;
+//   top: 4.5rem;
+//   left: 20.1rem;
+//   @extend %description-48-2;
+//   @include media("<phone") {
+//     top: 0;
+//     left: 0;
+//   }
+// }
+
+// .projects__number__text--right {
+//   position: absolute;
+//   right: 20rem;
+//   top: 4.5rem;
+//   @extend %description-48-2;
+// }
+
+// .projects__titles {
+// }
+
+// .projects__titles__title {
+//   position: absolute;
+//   left: 38.6rem;
+//   line-height: 9.7rem;
+//   top: 24.1rem;
+//   @extend %title-110;
+// }
+
+// .projects__titles__title--left {
+//   position: absolute;
+//   left: 21.7rem;
+// }
+
+// .projects__titles__title--width {
+//   width: 47.4rem;
+//   height: 19.6rem;
+// }
+
+// .projects__titles__description--left {
+//   position: absolute;
+//   top: 39.5rem;
+//   left: 21.7rem;
+//   width: 51rem;
+//   height: 10.5rem;
+//   @extend %description-32-2;
+// }
+
+// .projects__titles__description {
+//   position: absolute;
+//   top: 39.5rem;
+//   left: 38.6rem;
+//   width: 51rem;
+//   height: 10.5rem;
+//   @extend %description-32-2;
+// }
+
+// .projects__titles__description--space {
+//   position: absolute;
+//   top: 49.3rem;
+//   left: 38.6rem;
+//   width: 51rem;
+//   height: 10.5rem;
+//   @extend %description-32-2;
+// }
+
+// .projects__project__info {
+//   height: 2.4rem;
+//   width: 100%;
+//   position: absolute;
+//   bottom: 0;
+// }
+
+// .projects__project__info--rowreverse {
+//   width: 91.5rem;
+// }
+
+// .projects__project__info__description {
+//   position: absolute;
+//   left: 20.1rem;
+//   font-family: PP Neue Montreal;
+//   font-size: 2rem;
+//   font-weight: 500;
+//   line-height: 2.4rem;
+//   text-align: left;
+//   width: 11.9rem;
+//   height: 2.4rem;
+// }
+
+// .projects__project__link {
+//   position: absolute;
+//   right: 3.976rem;
+//   display: flex;
+//   gap: 1.82rem;
+//   @extend %description-20;
+//   text-align: left;
+
+//   svg {
+//     width: 2.37rem;
+//     height: 2.41rem;
+//   }
+// }
+
 .projects {
-  height: 100%;
-  height: 100%;
-  // display: none;
+  @extend %dimension;
+  min-height: 100%;
+  padding: 0 4rem;
+  // position: relative;
 }
 
 .projects__wrapper {
-  width: 100%;
-  height: 100%;
-  padding: 0 4rem;
+  @extend %dimension;
+  display: flex;
+  gap: 3.2rem;
+  flex-direction: column;
+  position: relative;
 }
 
-.projects__main__content {
-  min-height: 100%;
+.projects__content__wrapper {
+  @extend %dimension;
+  position: relative;
+}
+
+.projects__wrapper .projects__content:nth-child(1) {
+  height: 119.9rem;
   width: 100%;
+}
+
+.projects__wrapper .projects__content:nth-child(2) {
+  width: 100%;
+  height: 116.2rem;
+}
+
+.projects__wrapper .projects__content:nth-child(3) {
+  width: 100%;
+  height: 110.7rem;
 }
 
 .projects__header {
-  margin-top: 7.7rem;
-  margin-bottom: 5.3rem;
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
-  align-items: center;
+  position: absolute;
+  top: 7.7rem;
+}
+
+.none {
+  display: none;
 }
 
 .projects__header__text {
-  width: 41.5rem;
   height: 4.3rem;
   @extend %description-48;
-  align-self: flex-start;
 }
 
-.divider {
-  width: 184rem;
+.projects__divider {
+  width: 100%;
   border: 1px;
   height: 0.05rem;
   background-color: $color-black;
+  position: absolute;
+  top: 15.2rem;
+  z-index: 1;
 
   @include media("<phone") {
     width: 34.3rem;
   }
 }
 
-.projects__content {
-  display: flex;
-  border: 1px solid gold;
-
-  @include media("<phone") {
-    flex-direction: column;
-    
-  }
-}
-
-.projects__content--row-reverse {
-  display: flex;
-  flex-direction: row-reverse;
+.projects__divider__two {
   width: 100%;
-  border: 1px solid red;
+  border: 1px;
+  height: 0.05rem;
+  background-color: $color-black;
+  position: absolute;
+  top: 5.2rem;
+}
+
+.projects__divider__three {
+  width: 100%;
+  border: 1px;
+  height: 0.05rem;
+  background-color: $color-black;
+  position: absolute;
+  bottom: 4.2rem;
+}
+
+.projects__details {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 
   @include media("<phone") {
-    flex-direction: column;
-    width: 100%;
   }
 }
 
-.projects__sirheritage__media {
+.projects__details__three {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 10.5rem;
+}
+
+.projects__content__wrapper > .projects__details:nth-child(2) {
+  top: 10.5rem;
+  bottom: 9.7rem;
+  flex-direction: row-reverse;
+}
+
+.projects__media {
+  position: relative;
+  width: 72.7rem;
+  height: 95.2rem;
 }
 
 .projects__media__media {
-  width: 72.7rem;
-  height: 95.2rem;
   position: relative;
-  border: 1px solid rgb(0, 255, 128);
-  @include media("<phone") {
-    width: 35rem;
-    height: 42.6rem;
-  }
+  @extend %dimension;
 }
 
 .projects__media__media__image {
@@ -83,105 +313,110 @@
   object-fit: cover;
 }
 
-.projects__text {
-  width: 100%;
+.projects__text__content {
+  flex-grow: 1;
   position: relative;
-  border: 1px solid rgb(64, 0, 255);
+
+  & .projects__identity:nth-child(2) {
+    top: 24.1rem;
+    left: 21.7rem;
+  }
 }
 
 .projects__number__text {
   position: absolute;
   top: 4.5rem;
   left: 20.1rem;
-  @extend %description-48-2;
+  p {
+    @extend %description-48-2;
+  }
 }
 
-.projects__number__text--right {
+.projects__number__text__two {
   position: absolute;
+  top: 4.2rem;
   right: 20rem;
-  top: 4.5rem;
-  @extend %description-48-2;
+  p {
+    @extend %description-48-3;
+  }
 }
 
-.projects__titles {
-}
-
-.projects__titles__title {
+.projects__identity {
   position: absolute;
   left: 38.6rem;
-  line-height: 9.7rem;
   top: 24.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.projects__title {
+  line-height: 9.7rem;
   @extend %title-110;
 }
 
-.projects__titles__title--left {
-  position: absolute;
-  left: 21.7rem;
-}
-
-.projects__titles__title--width {
+.projects__title__three {
+  line-height: 9.7rem;
+  @extend %title-110;
   width: 47.4rem;
-  height: 19.6rem;
 }
 
-.projects__titles__description--left {
-  position: absolute;
-  top: 39.5rem;
-  left: 21.7rem;
+.projects__description {
   width: 51rem;
   height: 10.5rem;
   @extend %description-32-2;
 }
 
-.projects__titles__description {
-  position: absolute;
-  top: 39.5rem;
-  left: 38.6rem;
-  width: 51rem;
-  height: 10.5rem;
-  @extend %description-32-2;
-}
-
-.projects__titles__description--space {
-  position: absolute;
-  top: 49.3rem;
-  left: 38.6rem;
-  width: 51rem;
-  height: 10.5rem;
-  @extend %description-32-2;
-}
-
-.projects__project__info {
-  height: 2.4rem;
-  width: 100%;
+.projects__access {
+  display: flex;
   position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 2.4rem;
+  @extend %description-20;
 }
 
-.projects__project__info--rowreverse {
+.projects__access__two {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
   width: 91.5rem;
+  height: 2.4rem;
+  @extend %description-20;
 }
 
-.projects__project__info__description {
+.projects__type {
   position: absolute;
   left: 20.1rem;
-  font-family: PP Neue Montreal;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 2.4rem;
-  text-align: left;
-  width: 11.9rem;
-  height: 2.4rem;
 }
 
-.projects__project__link {
-  position: absolute;
-  right: 3.976rem;
+.projects__link {
+  width: 15.2rem;
   display: flex;
   gap: 1.82rem;
-  @extend %description-20;
-  text-align: left;
+  position: absolute;
+  right: 3.976rem;
 
+  P {
+    text-align: left;
+    text-wrap: nowrap;
+  }
+  svg {
+    width: 2.37rem;
+    height: 2.41rem;
+  }
+}
+
+.projects__link__two {
+  display: flex;
+  gap: 1.82rem;
+
+  P {
+    text-align: left;
+    text-wrap: nowrap;
+  }
   svg {
     width: 2.37rem;
     height: 2.41rem;
